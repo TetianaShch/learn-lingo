@@ -1,0 +1,80 @@
+.header {
+  padding-top: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1184px;
+  min-height: 48px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-text);
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.logoIcon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-left: 390px;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 16px;
+}
+
+.registrationButton {
+  padding: 14px 39px;
+  border: none;
+  border-radius: 12px;
+
+  color: var(--color-white);
+  background-color: var(--color-gray);
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.loginButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 0;
+  border: none;
+
+  color: var(--color-gray);
+  background-color: transparent;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.loginIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
