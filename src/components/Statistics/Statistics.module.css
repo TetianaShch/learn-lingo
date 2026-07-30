@@ -1,0 +1,48 @@
+.statistics {
+  width: 100%;
+  max-width: 1312px;
+  margin: 24px auto 32px;
+  padding: 40px 122px 40px 123px;
+  box-sizing: border-box;
+  border: 1.5px dashed var(--color-gray);
+  border-radius: 30px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.value,
+.label {
+  margin: 0;
+}
+
+.label {
+  max-width: 96px;
+
+  color: rgba(18, 20, 23, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+}
+
+.value {
+  color: var(--color-text);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  flex-shrink: 0;
+}

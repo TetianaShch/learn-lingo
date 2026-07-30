@@ -1,7 +1,7 @@
 .hero {
   width: 100%;
   max-width: 1312px;
-  margin: 20px auto 24px;
+  margin: 20px auto 0;
 
   display: flex;
   gap: 24px;

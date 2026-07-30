@@ -4,8 +4,8 @@ import Statistics from '../../components/Statistics/Statistics';
 const HomePage = () => {
   return (
     <>
-      <Hero />;
-      <Statistics />;
+      <Hero />
+      <Statistics />
     </>
   );
 };
