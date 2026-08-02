@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import Modal from '../Modal/Modal';
 import LoginForm from '../LoginForm/LoginForm';
 import styles from './Header.module.css';
+import RegistrationForm from '../RegistrationForm/RegistrationForm';
 
 type ModalType = 'login' | 'registration' | null;
 
@@ -51,6 +52,11 @@ const Header = () => {
       {activeModal === 'login' && (
         <Modal onClose={handleCloseModal}>
           <LoginForm />
+        </Modal>
+      )}
+      {activeModal === 'registration' && (
+        <Modal onClose={handleCloseModal}>
+          <RegistrationForm />
         </Modal>
       )}
     </>
